@@ -1,0 +1,87 @@
+{
+  "Fields": [
+    {
+      "fieldName": "Chatbot Development",
+      "skillsTechnologies": [
+        "Python (core)",
+        "Frameworks: djangorest, Flask, FastAPI for backend APIs",
+        "Chatbot frameworks: LangChain",
+        "NLP: transformers (Hugging Face), NLTK",
+        "Speech: SpeechRecognition, pyttsx3, OpenAI Whisper API",
+        "LLM Integrations: OpenaAI, Grok, LlaMa, Gemini",
+        "Vector DB / Retrieval: Qdrant, ChromaDB, FAISS, Pinecone",
+        "Deployment: Docker, AWS Lambda"
+      ]
+    },
+    {
+      "fieldName": "Automation",
+      "skillsTechnologies": [
+        "Python (pandas, openpyxl, requests, BeautifulSoup)",
+        "Automation Frameworks: Selenium, Playwright, PyAutoGUI",
+        "Workflow Tools: N8N, Zapier, Airflow",
+        "APIs: REST, GraphQL (requests, httpx)",
+        "Browser Automation: headless browsers, authentication handling"
+      ]
+    },
+    {
+      "fieldName": "Machine Learning",
+      "skillsTechnologies": [
+        "Python (NumPy, pandas, matplotlib, seaborn)",
+        "ML Libraries: scikit-learn, XGBoost, LightGBM, CatBoost",
+        "Deep Learning Frameworks: TensorFlow, PyTorch, Keras",
+        "Architectures: CNN, RNN, LSTM, GRU, Transformers, GANs",
+        "Deployment/Prototyping: Djangorest, FastAPI, Flask, Streamlit, Gradio"
+      ]
+    },
+    {
+      "fieldName": "Computer Vision",
+      "skillsTechnologies": [
+        "Python (OpenCV, NumPy, Pillow)",
+        "Deep Learning for Vision: PyTorch/TensorFlow, torchvision, tf.keras.applications",
+        "Architectures: CNN, ResNet, EfficientNet, YOLO, SSD, Faster-RCNN",
+        "OCR: Tesseract, EasyOCR, PaddleOCR",
+        "Video Processing: OpenCV, ffmpeg-python",
+        "Deployment: Djangorest, Flask/FastAPI with GPUs, ONNX Runtime, TensorRT"
+      ]
+    },
+    {
+      "fieldName": "RAG & LLMs",
+      "skillsTechnologies": [
+        "Python (requests, json, asyncio)",
+        "LangChain, LlamaIndex, LangGraph",
+        "Vector DBs: Qdrant, Pinecone, Weaviate, ChromaDB, FAISS",
+        "LLMs: OpenAI GPT, Gemini, LLaMA, Hugging Face models",
+        "Fine-Tuning: LoRA, PEFT, Hugging Face Trainer",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "fieldName": "Data Science",
+      "skillsTechnologies": [
+        "Python (pandas, NumPy, matplotlib, seaborn)",
+        "Visualization Tools: PowerBI, Tableau",
+        "ETL & Pipelines: Apache Airflow, dbt, Spark (PySpark)",
+        "Databases: SQL, PostgreSQL, BigQuery"
+      ]
+    },
+    {
+      "fieldName": "Natural Language Processing",
+      "skillsTechnologies": [
+        "Python (re, pandas, nltk)",
+        "Libraries: spaCy, NLTK, Gensim, Hugging Face Transformers",
+        "Techniques: Word Embeddings (Word2Vec, GloVe, FastText), Transformers (BERT, RoBERTa)",
+        "Deployment: Djangorest, FastAPI/Flask, Streamlit"
+      ]
+    },
+    {
+      "fieldName": "Generative AI",
+      "skillsTechnologies": [
+        "Python (Pillow, OpenCV, diffusers)",
+        "Generative Models: GANs, VAEs, Diffusion Models (Stable Diffusion)",
+        "Frameworks: PyTorch, TensorFlow",
+        "APIs: OpenAI, StabilityAI",
+        "Tools: Gradio, Streamlit for demos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI/ML Project Hierarchy Tree</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tree {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 1200px;
+        }
+        
+        .root {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+            transform: translateZ(0);
+            transition: all 0.3s ease;
+        }
+        
+        .root:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .level1 {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .field {
+            background: linear-gradient(135deg, #000000ff, #000000ff);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 15px;
+            font-weight: bold;
+            text-align: center;
+            min-width: 200px;
+            box-shadow: 0 8px 15px rgba(255, 154, 86, 0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .field:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(255, 154, 86, 0.4);
+        }
+        
+        .field::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            width: 2px;
+            height: 20px;
+            background: #ddd;
+            transform: translateX(-50%);
+        }
+        
+        .subtypes {
+            display: none;
+            margin-top: 20px;
+            padding-left: 20px;
+            border-left: 2px solid #eee;
+        }
+        
+        .subtypes.show {
+            display: block;
+        }
+        
+        .subtype {
+            background: linear-gradient(135deg, #004cffff, #004cffff);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin: 8px 0;
+            font-size: 14px;
+            font-weight: 500;
+            box-shadow: 0 4px 8px rgba(86, 204, 242, 0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .subtype:hover {
+            transform: translateX(5px);
+            box-shadow: 0 6px 12px rgba(86, 204, 242, 0.4);
+        }
+        
+        .sub-subtypes {
+            display: none;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+        
+        .sub-subtypes.show {
+            display: block;
+        }
+        
+        .sub-subtype {
+            background: linear-gradient(135deg, #617effff, #617effff);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 8px;
+            margin: 5px 0;
+            font-size: 12px;
+            font-weight: 400;
+            box-shadow: 0 3px 6px rgba(168, 230, 207, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .sub-subtype:hover {
+            transform: translateX(3px);
+            box-shadow: 0 4px 8px rgba(168, 230, 207, 0.4);
+        }
+        
+        .toggle-btn {
+            background: rgba(255,255,255,0.2);
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 11px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .toggle-btn:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        .connections {
+            position: relative;
+        }
+        
+        .connection-line {
+            position: absolute;
+            background: #ddd;
+            z-index: -1;
+        }
+        
+        .expand-all, .collapse-all {
+            background: linear-gradient(135deg, #000000ff, #000000ff);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+        }
+        
+        .expand-all:hover, .collapse-all:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(76, 175, 80, 0.4);
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .field {
+                min-width: 150px;
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+            
+            .level1 {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI/ML Project Hierarchy Structure</h1>
+        
+        <div class="controls">
+            <button class="expand-all" onclick="expandAll()">Expand All</button>
+            <button class="collapse-all" onclick="collapseAll()">Collapse All</button>
+        </div>
+        
+        <div class="tree">
+            <div class="root">AI/ML PROJECT FIELDS</div>
+            
+            <div class="level1">
+                <!-- 1. CHATBOT DEVELOPMENT -->
+<div class="field" onclick="toggleSubtypes(this)">
+  CHATBOT DEVELOPMENT
+  <span class="toggle-btn">+</span>
+  <div class="subtypes">
+    <!-- Use Cases -->
+    <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+      Use Cases
+      <span class="toggle-btn">+</span>
+      <div class="sub-subtypes">
+        <div class="sub-subtype">Role-Based Chatbots: Customer Service, Sales Assistant, HR Assistant</div>
+        <div class="sub-subtype">Customer Support Bots: FAQ, Troubleshooting, Order Management</div>
+        <div class="sub-subtype">Chatbot Automation: Workflow, Data Collection, Notifications</div>
+        <div class="sub-subtype">Multi-Modal Bots: Voice, Text, Avatar, Video</div>
+        <div class="sub-subtype">Healthcare Chatbots: Patient triage, Appointment scheduling, Symptom checker</div>
+        <div class="sub-subtype">Financial Chatbots: Account info, Loan calculators, Transaction inquiries</div>
+      </div>
+    </div>
+    <!-- Skills/Technologies -->
+    <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+      Skills / Technologies
+      <span class="toggle-btn">+</span>
+      <div class="sub-subtypes">
+        <div class="sub-subtype">Python (core)</div>
+        <div class="sub-subtype">Frameworks: djangorest, Flask, FastAPI for backend APIs</div>
+        <div class="sub-subtype">Chatbot frameworks: LangChain</div>
+        <div class="sub-subtype">NLP: transformers (Hugging Face), NLTK</div>
+        <div class="sub-subtype">Speech: SpeechRecognition, pyttsx3, OpenAI Whisper API</div>
+        <div class="sub-subtype">LLM Integrations: OpenaAI, Grok, LlaMa, Gemini</div>
+        <div class="sub-subtype">Vector DB / Retrieval: Qdrant, ChromaDB, FAISS, Pinecone</div>
+        <div class="sub-subtype">Deployment: Docker, AWS Lambda</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Automation -->
+  <div class="field" onclick="toggleSubtypes(this)">
+    AUTOMATION
+    <span class="toggle-btn">+</span>
+    <div class="subtypes">
+      <!-- Use Cases -->
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Use Cases
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Robotic Process Automation (Document Processing, Data Entry, Email Automation)</div>
+          <div class="sub-subtype">N8N and No-Code Tools Automation (Workflow Platforms, API Integrations, Business Process Automation, No-Code App Development)</div>
+          <div class="sub-subtype">Web Automations with Selenium (Scraping, Testing, Form Submissions)</div>
+        </div>
+      </div>
+      <!-- Skills -->
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Skills / Technologies
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Python (pandas, openpyxl, requests, BeautifulSoup)</div>
+          <div class="sub-subtype">Automation Frameworks: Selenium, Playwright, PyAutoGUI</div>
+          <div class="sub-subtype">Workflow Tools: N8N, Zapier, Airflow</div>
+          <div class="sub-subtype">APIs: REST, GraphQL (requests, httpx)</div>
+          <div class="sub-subtype">Browser Automation: headless browsers, authentication handling</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Machine Learning -->
+  <div class="field" onclick="toggleSubtypes(this)">
+    MACHINE LEARNING
+    <span class="toggle-btn">+</span>
+    <div class="subtypes">
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Use Cases
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Supervised: Classification, Regression, Time Series</div>
+          <div class="sub-subtype">Unsupervised: Clustering, Anomaly Detection, Dimensionality Reduction</div>
+          <div class="sub-subtype">Reinforcement Learning: Game AI, Autonomous Systems, Optimization</div>
+          <div class="sub-subtype">Deep Learning: Neural Networks, Generative Models</div>
+        </div>
+      </div>
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Skills / Technologies
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Python (NumPy, pandas, matplotlib, seaborn)</div>
+          <div class="sub-subtype">ML Libraries: scikit-learn, XGBoost, LightGBM, CatBoost</div>
+          <div class="sub-subtype">Deep Learning Frameworks: TensorFlow, PyTorch, Keras</div>
+          <div class="sub-subtype">Architectures: CNN, RNN, LSTM, GRU, Transformers, GANs</div>
+          <div class="sub-subtype">Deployment/Prototyping: Djangorest, FastAPI, Flask, Streamlit, Gradio</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Computer Vision -->
+  <div class="field" onclick="toggleSubtypes(this)">
+    COMPUTER VISION
+    <span class="toggle-btn">+</span>
+    <div class="subtypes">
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Use Cases
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Image Recognition & Classification (Object Detection, Facial Recognition, Medical Imaging)</div>
+          <div class="sub-subtype">Video Analytics (Surveillance, Traffic, Sports Analytics)</div>
+          <div class="sub-subtype">Document and OCR Systems (OCR, Document Analysis)</div>
+        </div>
+      </div>
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Skills / Technologies
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Python (OpenCV, NumPy, Pillow)</div>
+          <div class="sub-subtype">Deep Learning for Vision: PyTorch/TensorFlow, torchvision, tf.keras.applications</div>
+          <div class="sub-subtype">Architectures: CNN, ResNet, EfficientNet, YOLO, SSD, Faster-RCNN</div>
+          <div class="sub-subtype">OCR: Tesseract, EasyOCR, PaddleOCR</div>
+          <div class="sub-subtype">Video Processing: OpenCV, ffmpeg-python</div>
+          <div class="sub-subtype">Deployment: Djangorest, Flask/FastAPI with GPUs, ONNX Runtime, TensorRT</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RAG & LLMs -->
+  <div class="field" onclick="toggleSubtypes(this)">
+    RAG & LLMs
+    <span class="toggle-btn">+</span>
+    <div class="subtypes">
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Use Cases
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Knowledge Base Systems (Enterprise Knowledge, Customer Knowledge, Research Assistance)</div>
+          <div class="sub-subtype">Content Generation Systems (Text, Code, Multi-Modal Content)</div>
+          <div class="sub-subtype">Conversational AI Enhancement (Context-Aware, Domain-Specific Assistants)</div>
+          <div class="sub-subtype">LLM Fine-Tuning & Optimization (Custom Models, Model Integration)</div>
+        </div>
+      </div>
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Skills / Technologies
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Python (requests, json, asyncio)</div>
+          <div class="sub-subtype">LangChain, LlamaIndex, LangGraph</div>
+          <div class="sub-subtype">Vector DBs: Qdrant, Pinecone, Weaviate, ChromaDB, FAISS</div>
+          <div class="sub-subtype">LLMs: OpenAI GPT, Gemini, LLaMA, Hugging Face models</div>
+          <div class="sub-subtype">Fine-Tuning: LoRA, PEFT, Hugging Face Trainer</div>
+          <div class="sub-subtype">Prompt Engineering & Evaluation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data Science -->
+  <div class="field" onclick="toggleSubtypes(this)">
+    DATA SCIENCE
+    <span class="toggle-btn">+</span>
+    <div class="subtypes">
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Use Cases
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Business Intelligence & Analytics (Dashboards, Reporting, Data Storytelling)</div>
+          <div class="sub-subtype">Data Engineering & Pipeline Development (Data Warehousing, Real-Time Analytics, Data Governance)</div>
+        </div>
+      </div>
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Skills / Technologies
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Python (pandas, NumPy, matplotlib, seaborn)</div>
+          <div class="sub-subtype">Visualization Tools: PowerBI, Tableau</div>
+          <div class="sub-subtype">ETL & Pipelines: Apache Airflow, dbt, Spark (PySpark)</div>
+          <div class="sub-subtype">Databases: SQL, PostgreSQL, BigQuery</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Natural Language Processing -->
+  <div class="field" onclick="toggleSubtypes(this)">
+    NATURAL LANGUAGE PROCESSING
+    <span class="toggle-btn">+</span>
+    <div class="subtypes">
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Use Cases
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Sentiment Analysis</div>
+          <div class="sub-subtype">Named Entity Recognition</div>
+          <div class="sub-subtype">Text Summarization</div>
+        </div>
+      </div>
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Skills / Technologies
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Python (re, pandas, nltk)</div>
+          <div class="sub-subtype">Libraries: spaCy, NLTK, Gensim, Hugging Face Transformers</div>
+          <div class="sub-subtype">Techniques: Word Embeddings (Word2Vec, GloVe, FastText), Transformers (BERT, RoBERTa)</div>
+          <div class="sub-subtype">Deployment: Djangorest, FastAPI/Flask, Streamlit</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Generative AI -->
+  <div class="field" onclick="toggleSubtypes(this)">
+    GENERATIVE AI
+    <span class="toggle-btn">+</span>
+    <div class="subtypes">
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Use Cases
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Content Creation (Image Generation, Video Tools, Music Composition, 3D Models)</div>
+          <div class="sub-subtype">Creative Applications (Art Platforms, Design Assistance, Story Generation, Game Content Creation)</div>
+        </div>
+      </div>
+      <div class="subtype" onclick="event.stopPropagation(); toggleSubSubtypes(this)">
+        Skills / Technologies
+        <span class="toggle-btn">+</span>
+        <div class="sub-subtypes">
+          <div class="sub-subtype">Python (Pillow, OpenCV, diffusers)</div>
+          <div class="sub-subtype">Generative Models: GANs, VAEs, Diffusion Models (Stable Diffusion)</div>
+          <div class="sub-subtype">Frameworks: PyTorch, TensorFlow</div>
+          <div class="sub-subtype">APIs: OpenAI, StabilityAI</div>
+          <div class="sub-subtype">Tools: Gradio, Streamlit for demos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleSubtypes(element) {
+            const subtypes = element.querySelector('.subtypes');
+            const toggleBtn = element.querySelector('.toggle-btn');
+            
+            if (subtypes.classList.contains('show')) {
+                subtypes.classList.remove('show');
+                toggleBtn.textContent = '+';
+                // Close all sub-subtypes when closing main category
+                const subSubtypes = element.querySelectorAll('.sub-subtypes');
+                subSubtypes.forEach(sub => {
+                    sub.classList.remove('show');
+                });
+                const subToggleBtns = element.querySelectorAll('.subtype .toggle-btn');
+                subToggleBtns.forEach(btn => {
+                    btn.textContent = '+';
+                });
+            } else {
+                subtypes.classList.add('show');
+                toggleBtn.textContent = '-';
+            }
+        }
+        
+        function toggleSubSubtypes(element) {
+            const subSubtypes = element.querySelector('.sub-subtypes');
+            const toggleBtn = element.querySelector('.toggle-btn');
+            
+            if (subSubtypes.classList.contains('show')) {
+                subSubtypes.classList.remove('show');
+                toggleBtn.textContent = '+';
+            } else {
+                subSubtypes.classList.add('show');
+                toggleBtn.textContent = '-';
+            }
+        }
+        
+        function expandAll() {
+            const allSubtypes = document.querySelectorAll('.subtypes');
+            const allSubSubtypes = document.querySelectorAll('.sub-subtypes');
+            const allToggleBtns = document.querySelectorAll('.toggle-btn');
+            
+            allSubtypes.forEach(sub => sub.classList.add('show'));
+            allSubSubtypes.forEach(sub => sub.classList.add('show'));
+            allToggleBtns.forEach(btn => btn.textContent = '-');
+        }
+        
+        function collapseAll() {
+            const allSubtypes = document.querySelectorAll('.subtypes');
+            const allSubSubtypes = document.querySelectorAll('.sub-subtypes');
+            const allToggleBtns = document.querySelectorAll('.toggle-btn');
+            
+            allSubtypes.forEach(sub => sub.classList.remove('show'));
+            allSubSubtypes.forEach(sub => sub.classList.remove('show'));
+            allToggleBtns.forEach(btn => btn.textContent = '+');
+        }
+        
+        // Add hover effects and animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const fields = document.querySelectorAll('.field');
+            
+            fields.forEach(field => {
+                field.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px) scale(1.02)';
+                });
+                
+                field.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+            
+            // Add staggered animation on load
+            fields.forEach((field, index) => {
+                field.style.opacity = '0';
+                field.style.transform = 'translateY(30px)';
+                
+                setTimeout(() => {
+                    field.style.transition = 'all 0.6s ease';
+                    field.style.opacity = '1';
+                    field.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+</html>

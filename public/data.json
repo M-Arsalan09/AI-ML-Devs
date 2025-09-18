@@ -1,0 +1,1753 @@
+{
+  "Data": [
+    {
+      "Name": "Zirgham Ilyas",
+      "Role": "AI/ML Engineer",
+      "Email": "zirgham@ikonicsolution.com",
+      "Main Skills": "Python Programming & Automation, Computer Vision (CNN, LSTM, model fine-tuning), Large Language Models & RAG Pipelines, FastAPI & Cloud Deployment (Vertex AI, Cloud Run), Databases (MySQL, PostgreSQL, ChromaDB)",
+      "Profile Sheet": "Dev_Zirgham",
+      "Graduation ": "March 2023 (MS)",
+      "Industry Experience": "3+ Years",
+      "Employment Duration": "2025-07-01 00:00:00",
+      "Last Updated": "17 Sept 2025",
+      "details": {
+        "skills": [
+          {
+            "Skill Area": "Programming Languages",
+            "Skill": "Python",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Pandas",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Numpy",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Seaborn",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "PyTorch",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "TensorFlow",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Seaborn",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Keras",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Core ML & Neural Network Models",
+            "Skill": "ANN",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Core ML & Neural Network Models",
+            "Skill": "CNN (including fine-tuning)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Core ML & Neural Network Models",
+            "Skill": "LSTM for vision tasks",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Core ML & Neural Network Models",
+            "Skill": "Dino v2 fine-tuning",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Natural Language Processing",
+            "Skill": "NLP Data Preprocessing",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Natural Language Processing",
+            "Skill": "Text Classification",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Prompt engineering",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Fine-tuning LLMs",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "RAG (Retrieval Augmented Generation)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "OpenAI API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "Gemini API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "LLaMA API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "Claude API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "Elevenlabs",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "Vapi",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "D-ID",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "HeyGen",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "PostgreSQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "MySQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Vector Databases",
+            "Skill": "ChromaDB",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "PDF Data Extraction",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Web Scraping (BeautifulSoup, Selenium)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Cloud Run ML Model Deployment",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Vertex AI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Dev",
+            "Skill": "FastAPI",
+            "Experience Level": "Basic Knowledge"
+          }
+        ],
+        "projects": [
+          {
+            "Project Name": "Black Island",
+            "Description": "Computer Vision – Fine-tuning Dino v2 model for a CV task",
+            "Tech Stack": "Python, PyTorch, TensorFlow/Keras, CNN, Data Preprocessing",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project Name": "Quiz & Flash Card Generator",
+            "Description": "RAG-based project – generates quizzes & flash cards from content",
+            "Tech Stack": "Python, RAG, LLM fine-tuning, ChromaDB",
+            "Project Origin": "Previous Employer",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project Name": "Text Classifier",
+            "Description": "NLP text classification with preprocessing",
+            "Tech Stack": "Python, NLP Pipelines, Transformers/Preprocessing",
+            "Project Origin": "Self project",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project Name": "Human Activity Recognition",
+            "Description": "CNN-based model for human activity recognition",
+            "Tech Stack": "Python, CNN, LSTM, PyTorch/TensorFlow",
+            "Project Origin": "Self project",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          }
+        ],
+        "learning": []
+      }
+    },
+    {
+      "Name": "Azeem Khan",
+      "Role": "AI/ML Engineer",
+      "Email": "azeemkhan@ikonicsolution.com",
+      "Main Skills": "Python Programming & Automation (Scraping, PDF Data Extraction), Computer Vision & Neural Networks (CNN, LSTM, GANs, fine-tuning), MLOps & CI/CD (Docker, Docker Compose, GitHub Actions, Cloud Run GCP), LLM Fine-tuning, RAG Pipelines & Vector Databases (Pinecone, ChromaDB),Edge/Optimized ML Inference (TensorFlow Lite, OpenVINO, Quantization)",
+      "Profile Sheet": "Dev_Azeem",
+      "Graduation ": null,
+      "Industry Experience": null,
+      "Employment Duration": null,
+      "Last Updated": "17 Sept 2025",
+      "details": {
+        "skills": [
+          {
+            "Skill Area": "Programming Languages",
+            "Skill": "Python",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Pandas",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "NumPy",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Seaborn",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "PyTorch",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Keras",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "TensorFlow",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "TensorFlow Lite",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "OpenVINO",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Neural Networks",
+            "Skill": "ANN",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Neural Networks",
+            "Skill": "CNN (including fine-tuning)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Neural Networks",
+            "Skill": "LSTM",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Neural Networks",
+            "Skill": "RNN",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Neural Networks",
+            "Skill": "GANs",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advanced/Optimized ML",
+            "Skill": "Quantization (32-bit float → 8-bit int)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advanced/Optimized ML",
+            "Skill": "Edge inference",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advanced/Optimized ML",
+            "Skill": "OpenVINO",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Natural Language Processing",
+            "Skill": "NLP Data Preprocessing",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Fine-tuning LLMs",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "RAG (Retrieval Augmented Generation)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "OpenAI API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Agentic AI (learning)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "n8n (learning)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Lovable (learning)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Computer Vision",
+            "Skill": "Model fine-tuning",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Computer Vision",
+            "Skill": "Human activity recognition",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Computer Vision",
+            "Skill": "Dino v2 fine-tuning",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Vector Databases",
+            "Skill": "Pinecone",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Vector Databases",
+            "Skill": "ChromaDB",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "PDF Data Extraction",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Web Scraping (BeautifulSoup)",
+            "Experience Level": "Level 4"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Web Scraping (Selenium)",
+            "Experience Level": "Level 5"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Data Mining",
+            "Experience Level": "Level 6"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Docker",
+            "Experience Level": "Level 7"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Docker Compose",
+            "Experience Level": "Level 8"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "GitHub Actions",
+            "Experience Level": "Level 9"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "CI/CD pipelines",
+            "Experience Level": "Level 10"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Cloud Run (GCP)",
+            "Experience Level": "Level 11"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Vertex AI",
+            "Experience Level": "Level 12"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "FastAPI",
+            "Experience Level": "Level 13"
+          },
+          {
+            "Skill Area": "Databases & Data Warehousing",
+            "Skill": "PostgreSQL",
+            "Experience Level": "Level 14"
+          },
+          {
+            "Skill Area": "Databases & Data Warehousing",
+            "Skill": "MySQL",
+            "Experience Level": "Level 15"
+          },
+          {
+            "Skill Area": "Databases & Data Warehousing",
+            "Skill": "Firestore / “Firesen”",
+            "Experience Level": "Level 16"
+          },
+          {
+            "Skill Area": "Databases & Data Warehousing",
+            "Skill": "Supabase",
+            "Experience Level": "Level 17"
+          },
+          {
+            "Skill Area": "Data Preprocessing & Visualization",
+            "Skill": "Data Preprocessing",
+            "Experience Level": "Level 18"
+          },
+          {
+            "Skill Area": "Data Preprocessing & Visualization",
+            "Skill": "Seaborn (visualization)",
+            "Experience Level": "Level 19"
+          },
+          {
+            "Skill Area": "Other Skills",
+            "Skill": "Trading Bot Development",
+            "Experience Level": "Level 20"
+          },
+          {
+            "Skill Area": "Other Skills",
+            "Skill": "n8n automation workflows (learning)",
+            "Experience Level": "Level 21"
+          },
+          {
+            "Skill Area": "Other Skills",
+            "Skill": "Agentic AI (learning)",
+            "Experience Level": "Level 22"
+          }
+        ],
+        "projects": [
+          {
+            "Project Name": "Black Island",
+            "Description": "Computer Vision – Fine-tuning Dino v2 model for a CV task",
+            "Timeline": null,
+            "Tech Stack": "Python, PyTorch, TensorFlow/Keras, CNN, Data Preprocessing, Github Actions, Deployment",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null,
+            "col_7": null
+          },
+          {
+            "Project Name": "Trading Bot (NYSE Price Prediction)",
+            "Description": "Predictive modeling for NYSE stock prices",
+            "Timeline": null,
+            "Tech Stack": "Python, LSTM/RNN, Quantization for optimization, Data Warehousing, Postgres/Pinecone",
+            "Project Origin": null,
+            "Repo/Docs Links": null,
+            "Project Status": null,
+            "col_7": null
+          }
+        ],
+        "learning": []
+      }
+    },
+    {
+      "Name": "Sajjad Iqbal",
+      "Role": "AI/ML Engineer",
+      "Email": "sajjadiqbal@ikonicsolution.com",
+      "Main Skills": "Generative AI & Retrieval-Augmented Generation (LangChain, OpenAI, Whisper), Backend Development (Django, FastAPI, Flask), Computer Vision (YOLO, Stable Diffusion Models), Automation & Web Scraping (Selenium, HTTP Requests), API Integrations (OpenAI, Whisper)",
+      "Profile Sheet": "Dev_Sajjad",
+      "Graduation ": "Nov 2020",
+      "Industry Experience": "4 Years",
+      "Employment Duration": "2025-05-01 00:00:00",
+      "Last Updated": "17 Sept 2025",
+      "details": {
+        "skills": [
+          {
+            "Skill Area": "Programming Languages",
+            "Skill": "Python",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "LangChain",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Stable Diffusion Models",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Computer Vision",
+            "Skill": "YOLO",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Generative AI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "RAG (Retrieval Augmented Generation)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "OpenAI Integration",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Whisper API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Web Automation (Selenium)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "HTTP Requests Automation",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Django",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "FastAPI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Flask",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Frontend/Integrations",
+            "Skill": "React App Backend (FastAPI with OpenAI)",
+            "Experience Level": "Basic Knowledge"
+          }
+        ],
+        "projects": [
+          {
+            "Project Name": "RAG System with LangChain",
+            "Description": "Retrieval-Augmented Generation system",
+            "Tech Stack": "Python, LangChain, Generative AI",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project Name": "Automation through Selenium and Requests",
+            "Description": "Automated data extraction / actions",
+            "Tech Stack": "Python, Selenium, Requests",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project Name": "React App Backend in FastAPI with OpenAI Integration",
+            "Description": "Backend for React app with OpenAI API integration",
+            "Tech Stack": "FastAPI, OpenAI API",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project Name": "POC for Health App using Whisper API",
+            "Description": "Proof-of-concept for healthcare transcription / voice processing",
+            "Tech Stack": "Whisper API, Python",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          }
+        ],
+        "learning": []
+      }
+    },
+    {
+      "Name": "Muhammad Waleed",
+      "Role": "AI/ML Engineer",
+      "Email": "waleed@ikonicsolution.com",
+      "Main Skills": "Generative AI & Large Language Models (OpenAI, AutoGen, Few-shot, CoT), NLP Pipelines & Document Automation, Backend Development (Django, Streamlit, Flask), Data Visualization (Power BI, Tableau, No-Code Tools), Databases (MongoDB, PyMongo)",
+      "Profile Sheet": "Dev_Waleed",
+      "Graduation ": "July 2025",
+      "Industry Experience": "2 Years",
+      "Employment Duration": "July 2025 ( + 3 months internship)",
+      "Last Updated": "17 Sept 2025",
+      "details": {
+        "skills": [
+          {
+            "Skill Area": "Skill Area",
+            "Skill": "Skill",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Programming Languages",
+            "Skill": "Python",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "PyTorch",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Natural Language Processing",
+            "Skill": "NLP Pipelines",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Generative AI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Large Language Models (LLMs)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "LLM Architectures",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "OpenAI Integration",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "AutoGen AI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Few-Shot Learning",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Chain-of-Thought (CoT)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "RAG (Retrieval Augmented Generation)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Document Automation (PDF → Context → OpenAI)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Email Parsing (PST → EML Conversion)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "PyPIFF (handling PST files)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "FastAPI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Django",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Streamlit",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Slack Integrations",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "MongoDB",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "PyMongo",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Data Visualization",
+            "Skill": "Power BI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Data Visualization",
+            "Skill": "Tableau",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "No-Code Tools",
+            "Skill": "No-Code Platform Experience",
+            "Experience Level": "Basic Knowledge"
+          }
+        ],
+        "projects": [
+          {
+            "Project Name": "Document Automation",
+            "Description": "Upload PDF → Extract Context → Pass to OpenAI → Generate Summary/Resume",
+            "Tech Stack": "Python, Core Python, OpenAI API",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project Name": "AutoGen AI",
+            "Description": "AI system with FastAPI backend, fine-tuning, few-shot, chain-of-thought reasoning",
+            "Tech Stack": "FastAPI, OpenAI API, AutoGen, PyMongo, MongoDB",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project Name": "Email Parsing",
+            "Description": "Extract data from PST (Outlook) files and convert to EML",
+            "Tech Stack": "Python, PyPIFF, Email parsing libraries",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          }
+        ],
+        "learning": []
+      }
+    },
+    {
+      "Name": "Muhammad Noman",
+      "Role": "Python Backend/AI Developer",
+      "Email": "noman@ikonicsolution.com",
+      "Main Skills": "Backend Development (Django, Flask, FastAPI, Django REST), Automation & Web Scraping (Selenium, Playwright, Scrapy), AI Integrations (RAG, LangChain, LangGraph, OpenAI API). Cloud & Deployments (AWS, Docker, Nginx, Gunicorn), Payment & Communication Integrations (Stripe, Twilio, VAPI, Make.com)",
+      "Profile Sheet": "Dev_Noman",
+      "Graduation ": "2024 (MS)",
+      "Industry Experience": "5 years",
+      "Employment Duration": "1+ Year",
+      "Last Updated": "17 Sept 2025",
+      "details": {
+        "skills": [
+          {
+            "Skill Area": "Programming Languages",
+            "Skill": "Python",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Django",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Django REST",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Flask",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "FastAPI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "RAG",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "LangChain",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "LangGraph",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "OpenAI API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Web Scraping Automation",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Selenium",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Playwright",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation & Data Extraction",
+            "Skill": "Scrapy",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "VAPI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Make.com",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Twilio",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Stripe",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "MongoDB",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "SQLite",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "SQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "PostgreSQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "AWS",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Docker",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Nginx",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments & MLOps",
+            "Skill": "Gunicorn",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Architectures",
+            "Skill": "Monolithic Architecture",
+            "Experience Level": "Basic Knowledge"
+          }
+        ],
+        "projects": [
+          {
+            "Project": "Automation",
+            "Description": "Automated scraping pipelines",
+            "Technologies / Stack": "Python, Selenium, Playwright, Scrapy",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "app.carli",
+            "Description": "Flask project with APScheduler (task scheduling)",
+            "Technologies / Stack": "Flask, APScheduler",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Reddit Automation",
+            "Description": "Automate Reddit product data extraction & profile interactions to increase reach",
+            "Technologies / Stack": "Python, Selenium/Playwright, Reddit API",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Monolithic Architecture Student Portal",
+            "Description": "Flask-based student portal to demonstrate monolithic architecture flaws",
+            "Technologies / Stack": "Flask, Monolithic Architecture",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Safron Dev",
+            "Description": "FastAPI project – Sensitive data hiding using color coding",
+            "Technologies / Stack": "FastAPI",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Financial News",
+            "Description": "Django project – Scrape news sites (CNN, etc.) & publish to WordPress",
+            "Technologies / Stack": "Django, Scraping, WordPress",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Voca Care",
+            "Description": "Django + Make.com – App for elderly patients to get timely health updates/messages",
+            "Technologies / Stack": "Django, Make.com",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "TRG CMS System",
+            "Description": "CMS built in Django",
+            "Technologies / Stack": "Django",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Social Beacon",
+            "Description": "Social media content generator using OpenAI API",
+            "Technologies / Stack": "Django/Flask, OpenAI API",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Kyle Automation",
+            "Description": "Django REST – Fill construction site form, get Job ID & automate workflow",
+            "Technologies / Stack": "Django REST, Automation",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Crossword",
+            "Description": "Django REST – Data scraping to find possible answers to given questions",
+            "Technologies / Stack": "Django REST, Scraping",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          }
+        ],
+        "learning": []
+      }
+    },
+    {
+      "Name": "Majid Iqbal",
+      "Role": "AI/ML Engineer",
+      "Email": "majiiqbal@ikonicsolution.com",
+      "Main Skills": "Generative AI & LLM Pipelines (LangChain, LangGraph, Agents, Agentic Frameworks), Multi-Agent Systems & RAG-based Chatbots, Computer Vision & Stable Diffusion Models (YOLO detection & segmentation), Cloud & Deployment (AWS SageMaker, Vercel), Vector Databases (ChromaDB, Pinecone, Qdrant)",
+      "Profile Sheet": "Dev_Majid",
+      "Graduation ": null,
+      "Industry Experience": null,
+      "Employment Duration": null,
+      "Last Updated": "17 Sept 2025",
+      "details": {
+        "skills": [
+          {
+            "Skill Area": "Programming Languages",
+            "Skill": "Python",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Generative AI (LLMs)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Agents",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Agentic Frameworks",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "RAG (Retrieval Augmented Generation)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "LangChain",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "LangGraph",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Grok",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Gemini",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "OpenAI API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Natural Language Processing",
+            "Skill": "NLP Fine-tuning",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Computer Vision",
+            "Skill": "Stable Diffusion Models",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Computer Vision",
+            "Skill": "YOLO Detection",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Computer Vision",
+            "Skill": "YOLO Segmentation",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Vector Databases",
+            "Skill": "ChromaDB",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Vector Databases",
+            "Skill": "Pinecone",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Vector Databases",
+            "Skill": "Qdrant",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "FastAPI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "SQLite",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "PostgreSQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Cloud Services",
+            "Skill": "AWS SageMaker",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Cloud Services",
+            "Skill": "Vercel",
+            "Experience Level": "Basic Knowledge"
+          }
+        ],
+        "projects": [
+          {
+            "Project": "RAG-based Chatbot",
+            "Description / Focus": "Chatbot built with Retrieval-Augmented Generation using LangChain",
+            "Technologies / Stack": "Python, LangChain, RAG, LLMs",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Multi-Agent System",
+            "Description / Focus": "Multi-agent system leveraging LangGraph & agentic frameworks",
+            "Technologies / Stack": "Python, LangGraph, Agents",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "AI Room Remodeling",
+            "Description / Focus": "Computer vision + Stable Diffusion for room remodeling & YOLO-based detection/segmentation",
+            "Technologies / Stack": "Stable Diffusion Models, YOLO Detection & Segmentation, Computer Vision",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          }
+        ],
+        "learning": []
+      }
+    },
+    {
+      "Name": "Awais Mukhtar",
+      "Role": "AI/ML Engineer",
+      "Email": "awaismukhtar@ikonicsolution.com",
+      "Main Skills": "Natural Language Processing (Expert in NLP, Pre/Post-training, Fine-tuning), Core ML/DL Models for Tabular Data, Generative AI & LLMs (LangChain, LangGraph, LangSmith, OpenAI SDK, Google SDK), Backend & Automation (FastAPI, Flask, Selenium, Notion CRM Automation), Big Data & Cloud Platforms (Hadoop, PySpark, AWS S3/Lambda)",
+      "Profile Sheet": "Dev_Awais",
+      "Graduation ": "July 2025",
+      "Industry Experience": "2.5 Years",
+      "Employment Duration": "2025-08-01 00:00:00",
+      "Last Updated": "17 Sept 2025",
+      "details": {
+        "skills": [
+          {
+            "Skill Area": "Programming Languages",
+            "Skill": "Python",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Natural Language Processing",
+            "Skill": "NLP (Expert)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Machine Learning & Deep Learning",
+            "Skill": "Core Tabular ML Models",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Machine Learning & Deep Learning",
+            "Skill": "Core Tabular DL Models",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Machine Learning & Deep Learning",
+            "Skill": "Fine-tuning",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Machine Learning & Deep Learning",
+            "Skill": "Pre-training",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Machine Learning & Deep Learning",
+            "Skill": "Post-training",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Gen AI",
+            "Skill": "LangChain",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Gen AI",
+            "Skill": "LangGraph",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Gen AI",
+            "Skill": "LangSmith",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "RAG (Retrieval Augmented Generation)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "OpenAI SDK",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Advance AI & LLMs",
+            "Skill": "Google SDK",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation",
+            "Skill": "Selenium",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Notion Integration",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "CRM Automation",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "N8N",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Voice AI",
+            "Skill": "Voice AI Project",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Insurance Automation",
+            "Skill": "Insurance Agent using N8N",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "Firebase",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "MySQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "PostgreSQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Cloud Services",
+            "Skill": "AWS S3",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Cloud Services",
+            "Skill": "AWS Lambda",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Version Control",
+            "Skill": "GitHub",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Version Control",
+            "Skill": "GitLab",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "CI/CD",
+            "Skill": "GitHub Actions",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Big Data",
+            "Skill": "Hadoop",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Big Data",
+            "Skill": "PySpark",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Big Data",
+            "Skill": "DataFrame Platforms",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "FastAPI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Flask",
+            "Experience Level": "Basic Knowledge"
+          }
+        ],
+        "projects": [
+          {
+            "Project": "Notion Automation",
+            "Description / Focus": "Python + Notion integration to build CRM and manage Notion databases",
+            "Technologies / Stack": "Python, Notion API, CRM Automation",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Voca Care",
+            "Description / Focus": "Elderly healthcare updates/messages using N8N workflows",
+            "Technologies / Stack": "Django/Backend + N8N",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Voice AI Project",
+            "Description / Focus": "Voice AI workflow/project (likely transcription or voice agent)",
+            "Technologies / Stack": "Python, Voice AI Tools, N8N",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Insurance Agent (N8N)",
+            "Description / Focus": "Automation of insurance agent processes using N8N workflows",
+            "Technologies / Stack": "N8N, Python, Automation",
+            "Project Origin": "Ikonic",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          }
+        ],
+        "learning": []
+      }
+    },
+    {
+      "Name": "M Arsalan",
+      "Role": "AI/ML Engineer",
+      "Email": "arsalankamran@ikonicsolution.com",
+      "Main Skills": "Backend Development & APIs (Django, DRF, FastAPI, Flask), Generative AI & LLM Integrations (LangChain, LangGraph, OpenAI, Gemini, LLaMA), AI/ML Models (NLP, Core ML/DL Models, Data Preprocessing, Neural Networks), Cloud & Deployments (AWS EC2/RDS/Lambda/S3/Amplify, GCP, Docker, CI/CD), Third-party & AI Integrations (Stripe, Twilio, Calendly, Shopify, Slack, Google SDK)",
+      "Profile Sheet": "Dev_Arsalan",
+      "Graduation ": "July 2024",
+      "Industry Experience": "3 Years",
+      "Employment Duration": "15 Sept 2025",
+      "Last Updated": "17 Sept 2025",
+      "details": {
+        "skills": [
+          {
+            "Skill Area": "Programming Languages",
+            "Skill": "Python",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Pandas",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Numpy",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "sk-learn",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "PyTorch",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "TensorFlow",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Seaborn",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Keras",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI/ML Libraries",
+            "Skill": "Hugging Face",
+            "Experience Level": "Level 2"
+          },
+          {
+            "Skill Area": "Machine Learning & Deep Learning",
+            "Skill": "Core Tabular Models",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Machine Learning & Deep Learning",
+            "Skill": "Data Preprocessing",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Machine Learning & Deep Learning",
+            "Skill": "Neural Networks (CNN/RNN/LSTM)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Natural Language Processing",
+            "Skill": "NLP Pipelines",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "OpenAI API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "Whisper API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "Gemini API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "LLaMA API",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "VAPI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "ElevenLabs",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "HeyGen",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "AI Integrations",
+            "Skill": "D-ID",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Generative AI",
+            "Skill": "LangChain",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Generative AI",
+            "Skill": "LangGraph",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Generative AI",
+            "Skill": "OpenAI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Generative AI",
+            "Skill": "Prompt Engineering",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation",
+            "Skill": "Selenium",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation",
+            "Skill": "Scrapy",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Automation",
+            "Skill": "BeautifulSoup",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Vector Databases",
+            "Skill": "Qdrant",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Vector Databases",
+            "Skill": "ChromaDB",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Django",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Django REST",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "FastAPI",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Backend Development",
+            "Skill": "Flask",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Server Side",
+            "Skill": "Nginx",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Server Side",
+            "Skill": "Gunicorn",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Server Side",
+            "Skill": "Supervisorctl",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Server Side",
+            "Skill": "Systemctl",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Schedulers",
+            "Skill": "Celery",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Schedulers",
+            "Skill": "Celery Beat",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Schedulers",
+            "Skill": "APScheduler",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Twilio",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Stripe",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Calendly",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Slack",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Google Suite SDK",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Integrations",
+            "Skill": "Shopify Integration",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "MySQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "SQLite",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "PostgreSQL",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Databases",
+            "Skill": "Supabase (DB + Authentication)",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments",
+            "Skill": "AWS EC2",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments",
+            "Skill": "AWS Lambda",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments",
+            "Skill": "AWS RDS",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments",
+            "Skill": "AWS Amplify",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments",
+            "Skill": "AWS S3",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments",
+            "Skill": "GCP Bucket",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Deployments",
+            "Skill": "GCP Instance",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "CI/CD",
+            "Skill": "GitHub Actions",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Containerization",
+            "Skill": "Docker",
+            "Experience Level": "Basic Knowledge"
+          },
+          {
+            "Skill Area": "Containerization",
+            "Skill": "Docker Compose",
+            "Experience Level": "Basic Knowledge"
+          }
+        ],
+        "projects": [
+          {
+            "Project": "VisuAlly",
+            "Description / Focus": "AI-powered mobile app for visually impaired with real-time object detection, facial recognition, and TTS",
+            "Technologies / Stack": "Python, Computer Vision (CNN), TensorFlow/PyTorch, TTS, Mobile Integration",
+            "Project Origin": "FYP",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Motorcut",
+            "Description / Focus": "AI-powered platform for car advertisement photo enhancement serving 1000+ users",
+            "Technologies / Stack": "Python, Computer Vision, Cloud Deployments",
+            "Project Origin": "Previous Company",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Bntr",
+            "Description / Focus": "AI chatbot creation platform with Google Sheets, Calendly, and HubSpot integrations reducing response time by 70%",
+            "Technologies / Stack": "Django/FastAPI, OpenAI API, Calendly, Google Sheets",
+            "Project Origin": "Previous Company",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Maxina",
+            "Description / Focus": "Health consultation mobile app with AI-powered nutrition guidance, 3D avatar engagement, and streaming capabilities",
+            "Technologies / Stack": "Python, AI/ML Pipelines, Generative AI, Cloud",
+            "Project Origin": "Previous Company",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Cervical & Colorectal Cancer Classification Models",
+            "Description / Focus": "CNN/RNN/LSTM-based healthcare models achieving 98% accuracy",
+            "Technologies / Stack": "TensorFlow, PyTorch, Keras, Data Preprocessing",
+            "Project Origin": "Previous Company",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          },
+          {
+            "Project": "Backend Microservices & AI Integrations",
+            "Description / Focus": "Microservices-based systems handling 10K+ daily requests, integrating advanced AI models",
+            "Technologies / Stack": "Django/FastAPI/Flask, Docker, AWS/GCP, OpenAI, Redis, PostgreSQL",
+            "Project Origin": "Previous Company",
+            "Repo/Docs Links": null,
+            "Project Status": null
+          }
+        ],
+        "learning": []
+      }
+    }
+  ]
+}
