@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": {
+      "includeFiles": "node_modules/@google/genai/**"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/search-developer",
+      "dest": "api/search-developer.js"
+    }
+  ]
+}
