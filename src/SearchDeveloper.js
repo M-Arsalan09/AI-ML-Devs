@@ -16,7 +16,7 @@ export default function SearchDeveloper({ developers }) {
     setResult(null);
 
     try {
-      const resp = await fetch("/api/search-developer", {
+      const resp = await fetch("ai-ml-devs.vercel.app/api/search-developer", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
