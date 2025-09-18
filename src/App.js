@@ -1,15 +1,16 @@
-// in App.js, modify imports
+// src/App.js
+
 import React, { useEffect, useState } from "react";
 import DeveloperList from "./DeveloperList";
 import DeveloperDetails from "./DeveloperDetails";
-import Learning from "./Learning";  // new
+import Learning from "./Learning";
 import SearchDeveloper from "./SearchDeveloper";
 import "./App.css";
 
 function App() {
   const [data, setData] = useState([]);
   const [selectedDevIndex, setSelectedDevIndex] = useState(null);
-  const [tab, setTab] = useState("developers"); // possible values: 'developers', 'projects', 'learning'
+  const [tab, setTab] = useState("developers"); // allowed: 'developers', 'projects', 'learning', 'search'
 
   useEffect(() => {
     fetch("/data.json")
@@ -44,6 +45,12 @@ function App() {
             onClick={() => setTab("learning")}
           >
             Learning
+          </button>
+          <button
+            className={tab === "search" ? "active" : ""}
+            onClick={() => setTab("search")}
+          >
+            Search Developer
           </button>
         </div>
       </header>
@@ -80,8 +87,9 @@ function App() {
         {tab === "learning" && (
           <Learning data={data} />
         )}
+
         {tab === "search" && (
-          <SearchDeveloper developers={data}/>
+          <SearchDeveloper developers={data} />
         )}
       </main>
     </div>
